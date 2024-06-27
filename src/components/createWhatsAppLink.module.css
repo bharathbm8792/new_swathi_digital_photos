@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: fixed;
+  bottom: 45px;
+  right: 20px;
+  z-index: 1000;
+  /* background-color: white; */
+  background-color: #000;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  color: #05d905;
+}
+
+.container a {
+  color: #186a6d;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container span {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.WALINK {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.WALINK:hover {
+  color: #08a408;
+}
+
+.container span:hover,
+.icon:hover {
+  color: #08a408;
+}
+
+.newicon{
+  color: #08a408;
+}
